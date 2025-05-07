@@ -4,10 +4,6 @@ import InvoiceStatus from '@/app/ui/invoices/status';
 import { formatDateToLocal, formatCurrency } from '@/app/lib/utils';
 import { fetchFilteredInvoices } from '@/app/lib/data';
 
-// Add dynamic configuration
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
 export default async function InvoicesTable({
   query,
   currentPage,
